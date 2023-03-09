@@ -1,0 +1,15 @@
+
+.container-class {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+  .object-fitted{
+    object-fit: cover;
+    object-position: 0 0; /* top and left start position for ccrop*/
+    height: 100%; /* percentage of container */
+    width: 100%; 
+  }
